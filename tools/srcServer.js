@@ -26,6 +26,6 @@ app.listen(port, function(err) {
     console.log(err);
   } else {
     console.log(`App running on port ${port}`);
-   // open(`http://0.0.0.0:${port}`);
+    open(`http://0.0.0.0:${port}`);
   }
 });
